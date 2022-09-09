@@ -18,4 +18,16 @@ selected = random.choice(candidates) # candidates의 요소값 중 랜덤으로 
 
 print(selected)
 
+print('------------------------')
+
+# randint(a, b) : a <= n <= b
+n = random.randint(2, 5)
+print(n)
+
+print('------------------------')
+
+# shuffle(list변수명) : 랜덤으로 순서를 섞음
+list = [2, 4, 6, 3, 5, 10]
+random.shuffle(list)
+print(list)
 
