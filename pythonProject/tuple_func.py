@@ -18,8 +18,6 @@ for a in enumerate(list):
     print('{}번째 값 : {}'.format(*a))
 
 
-print('-------------------------------------------')
-
 # 튜플을 이용한 딕셔너리 출력
 ages = {'Tod':35, 'Jane':23, 'Paul':62}
 
